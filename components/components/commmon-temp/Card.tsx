@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { CardProps } from '../../interfaces';
+import { CardProps } from '../../../interfaces-temp';
 import Button from './Button';
 
 const Card: React.FC<CardProps> = ({ image, title, description, onButtonClick }) => {
