@@ -15,5 +15,4 @@ const Card: React.FC<CardProps> = ({ image, title, description, onButtonClick })
     </div>
   );
 };
-
 export default Card;
