@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { CardProps } from '../../../interfaces-temp';
+import { CardProps } from '../../interfaces';
 import Button from './Button';
 
 const Card: React.FC<CardProps> = ({ image, title, description, onButtonClick }) => {
@@ -15,4 +15,5 @@ const Card: React.FC<CardProps> = ({ image, title, description, onButtonClick })
     </div>
   );
 };
+
 export default Card;
